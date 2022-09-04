@@ -1,0 +1,53 @@
+.header {
+  margin-top: 1%;
+}
+
+.fa-pinterest-square {
+  background: white;
+  color: #c59a60;
+  text-decoration: none;
+  margin-left: 4.5%;
+}
+.fa-facebook-square {
+  background: white;
+  color: #c59a60;
+  text-decoration: none;
+  margin-left: 1.5%;
+}
+.fa-instagram {
+  background: white;
+  color: #c59a60;
+  text-decoration: none;
+  margin-left: 1.5%;
+}
+
+.fa-search {
+  background: white;
+  color: #c59a60;
+  text-decoration: none;
+  margin-right: 6%;
+}
+
+.title {
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 200px;
+}
+.socialmediaheader {
+  display: flex;
+  align-items: center;
+}
+
+.selectheader ul {
+  list-style-type: none;
+
+  text-align: center;
+}
+.selectheader li {
+  display: inline-block;
+  margin-right: 3%;
+  font-size: small;
+}
