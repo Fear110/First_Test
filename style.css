@@ -250,3 +250,13 @@ html {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
+input.footercheck {
+    width : 0.8rem;
+    height : 0.8rem;
+}
+.copyright{
+  text-align: center;
+  color: white;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+}
