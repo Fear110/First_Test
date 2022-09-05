@@ -6,28 +6,28 @@ html {
   margin-top: 1rem;
 }
 /* Pintrest style */
-.fa-square-pinterest {
+.socialmediaheader .fa-square-pinterest {
   background: white;
   color: #c59a60;
   text-decoration: none;
   font-size: 2rem;
 }
 /* style faceebook icon */
-.fa-square-facebook {
+.socialmediaheader .fa-square-facebook {
   background: white;
   color: #c59a60;
   text-decoration: none;
   font-size: 2rem;
 }
 /* style instagram icon */
-.fa-instagram {
+.socialmediaheader .fa-instagram {
   background: white;
   color: #c59a60;
   text-decoration: none;
   font-size: 2rem;
 }
 /* style search icon in header */
-.fa-search {
+.socialmediaheader .fa-search {
   background: white;
   color: #c59a60;
   text-decoration: none;
@@ -149,6 +149,7 @@ html {
 .quickmenu {
   text-align: center;
   margin-top: 5rem;
+  border: black 2px solid;
 }
 
 /* male quick menu big in text change their color and put padding into it */
@@ -161,6 +162,7 @@ html {
   padding-left: 6rem;
   color: #c59a60;
   margin-top: 1rem;
+  
 }
 /* more padding for better experiences */
 .fasttext {
@@ -176,3 +178,36 @@ html {
 .fasticon {
   display: inline-block;
 }
+
+.footer{
+  padding-top: 9rem;
+  border: 2px black solid;
+  background: url("pizza.jpg");
+}
+.footericons ul{
+  list-style-type: none;
+  text-align: center;
+}
+.footericons li {
+  display: inline-block;
+  margin-right: 3.5rem;
+}
+.footertitletxt{
+  text-align: center;
+  font-size: 6rem;
+  color: white;
+}
+.footericons{
+  margin-top: 3rem;
+}
+.footericons #footericon{
+  color: white;
+  font-size: 2rem;
+}
+.footerbody{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+
