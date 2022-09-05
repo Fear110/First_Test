@@ -180,6 +180,8 @@ html {
 .footer {
   padding-top: 9rem;
   background: url("pizza.jpg");
+  margin-left: -0.82rem;
+  margin-right: -0.82rem;
 }
 .footericons ul {
   list-style-type: none;
@@ -214,7 +216,10 @@ html {
 }
 .footerbodytext {
   font-size: 1.3rem;
-  padding: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 .footerhead {
   font-size: 3rem;
@@ -247,14 +252,14 @@ html {
   padding: 0.4rem;
 }
 .footercheck {
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
 input.footercheck {
-    width : 0.8rem;
-    height : 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
 }
-.copyright{
+.copyright {
   text-align: center;
   color: white;
   padding-top: 9rem;
