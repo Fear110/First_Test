@@ -69,23 +69,18 @@ html {
 /* make it responsive to the users */
 @media (max-width: 998px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 
 @media (max-width: 768px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
 }
 @media (max-width: 550px) {
   html {
-    font-size: 40%;
-  }
-}
-@media (max-width: 412) {
-  html {
-    font-size: 35%;
+    font-size: 22%;
   }
 }
 
@@ -96,7 +91,6 @@ html {
   width: 100%;
   background-size: cover;
   background-position: center;
-  border: 2px green solid;
 }
 /* Break fast passage */
 .maintitle {
@@ -110,6 +104,9 @@ html {
   margin-left: 10rem;
   border-radius: 0.5rem;
   margin-top: 40rem;
+}
+.emptydiv {
+  opacity: 0%;
 }
 
 .titlereadmore {
@@ -180,8 +177,6 @@ html {
 .footer {
   padding-top: 9rem;
   background: url("pizza.jpg");
-  margin-left: -0.82rem;
-  margin-right: -0.82rem;
 }
 .footericons ul {
   list-style-type: none;
