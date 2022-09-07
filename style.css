@@ -1,6 +1,37 @@
 html {
   font-size: 62.5%;
 }
+
+/* make it responsive to the users */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 33%;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 22%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 18%;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 16%;
+  }
+}
+@media (max-width: 340px) {
+  html {
+    font-size: 13%;
+  }
+}
+
 /* margin top heading */
 .header {
   margin-top: 1rem;
@@ -40,7 +71,11 @@ html {
 }
 
 .socialmediaheader {
+  padding: 8rem;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* remove dot from the sub header and place them in center */
@@ -64,24 +99,6 @@ html {
 /* give margin in the bottom section */
 .selectheader {
   margin-bottom: 4rem;
-}
-
-/* make it responsive to the users */
-@media (max-width: 998px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (max-width: 550px) {
-  html {
-    font-size: 22%;
-  }
 }
 
 /* main body background */
@@ -276,7 +293,6 @@ input.footercheck {
   float: right;
   padding: 1rem;
   background-color: rgb(184, 175, 175);
-
 } */
 .mainheadertext {
   font-size: 4.5rem;
@@ -290,7 +306,8 @@ input.footercheck {
   margin-bottom: 15rem;
 }
 .content {
-  width: 75%;
+  width: max-content;
+  margin-right: 10rem;
 }
 .aside {
   width: 25%;
@@ -304,7 +321,7 @@ input.footercheck {
 
 .bodycontent img {
   height: 55rem;
-  width: 40rem;
+  width: 38rem;
 }
 .titlenecipes {
   margin-top: 3.5rem;
@@ -324,25 +341,23 @@ input.footercheck {
   margin-right: 10rem;
   margin-bottom: 4rem;
 }
-.aboutrecipes{
+.aboutrecipes {
   margin-top: 2.5rem;
 }
-.recbtn1, .recbtn2{
+.recbtn1,
+.recbtn2 {
   text-decoration: none;
   color: black;
 }
 
-.quickbuy{
+.quickbuy {
   background-color: antiquewhite;
   padding-top: 4rem;
   padding-left: 3rem;
   display: flex;
 }
 
-.quickbuyright img{
+.quickbuyright img {
   height: 8rem;
   width: fit-content;
-
 }
-
-
