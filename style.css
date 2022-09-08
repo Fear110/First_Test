@@ -324,7 +324,6 @@ input.footercheck {
   margin-right: 10rem;
 }
 
-
 .bodycontent {
   display: inline-block;
   width: 38rem;
@@ -469,43 +468,69 @@ input.footercheck {
   width: 25%;
 } */
 
-.searchTerm{
+.searchTerm {
   width: 30rem;
 }
 
-fieldset legend{
+fieldset legend {
   text-align: center;
 }
 
 fieldset {
-    border: 2px solid #c59a60;
-    font-size: 1.5rem;
-    color: #c59a60;
-    border-radius: 4px;
-    width: 30rem;
+  border: 2px solid #c59a60;
+  font-size: 1.5rem;
+  color: #c59a60;
+  border-radius: 4px;
+  width: 30rem;
 }
 
-fieldset img{
+fieldset img {
   width: 30rem;
   padding-top: 0.5rem;
 }
-.first-quickmessage{
+.first-quickmessage {
   margin-top: 9rem;
 }
-.first-quickmessage-body,.first-quickmessage-readmore{
+.first-quickmessage-body,
+.first-quickmessage-readmore {
   color: black;
   text-decoration: none;
 }
-.quick-news, .quick-social{
+.quick-news,
+.quick-social {
   margin-top: 5rem;
 }
 
-.quick-social a{
+.quick-social a {
   color: #c59a60;
   text-decoration: none;
   padding-left: 3rem;
 }
-.quick-social-icons{
+.quick-social-icons {
   padding: 3rem;
   text-align: center;
 }
+.quick-recipe-button {
+  background: #c59a60;
+  border: 0px;
+  color: white;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+}
+
+.quick-recipe {
+  background-color: #f7f3ef;
+  border-radius: 5px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.quick-recipe-title{
+  padding-top: 1rem;
+}
+.quick-recipe-button{
+  margin-bottom:1rem ;
+}
+
+
