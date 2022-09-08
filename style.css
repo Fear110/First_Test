@@ -65,13 +65,18 @@ html {
   font-size: 2rem;
 }
 
+#headerfacebook, #headerinsta{
+  padding-left: 2rem;
+}
 /* style main title I.E. foodblog */
 .title {
   font-size: 6rem;
 }
 
 .socialmediaheader {
-  padding: 8rem;
+  padding-left: 8rem;
+  padding-right: 15rem;
+  padding-top: 1rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -176,6 +181,11 @@ html {
   color: #c59a60;
   margin-top: 1rem;
   margin-bottom: 3rem;
+}
+
+.fasticon a{
+  text-decoration: none;
+  color: #c59a60;
 }
 /* more padding for better experiences */
 .fasttext {
@@ -309,9 +319,9 @@ input.footercheck {
   width: max-content;
   margin-right: 10rem;
 }
-.aside {
+/* .aside {
   width: 25%;
-}
+} */
 
 .bodycontent {
   display: inline-block;
@@ -361,68 +371,82 @@ input.footercheck {
   height: 8rem;
   width: fit-content;
 }
-.pastatips img{
-  width: 87rem;  
+.pastatips img {
+  width: 87rem;
   border-radius: 4px;
 }
-.titlepasta{
+.titlepasta {
   margin-top: 2.5em;
   margin-bottom: 4.5rem;
   font-size: 2.5rem;
 }
-.whattosay img{
+.whattosay img {
   border: 2px black solid;
   border-radius: 50%;
   width: 9rem;
 }
-.whattosay{
+.whattosay {
   width: 87rem;
   display: flex;
   margin-top: 5rem;
 }
-.whattosayright{
+.whattosayright {
   margin-left: 3rem;
 }
-.writterby,.writtenname, .writtendate, .writtenbody,.reply {
+.writterby,
+.writtenname,
+.writtendate,
+.writtenbody,
+.reply {
   margin-top: 1rem;
+  
+}
+.replybtn{
+  text-decoration: none;
+  color: black ;
 }
 
-.leavereplyheader,.writtenname{
+.leavereplyheader,
+.writtenname {
   font-size: 2rem;
 }
-.writtendate, .writtenbody{
+.writtendate,
+.writtenbody {
   font-size: 1.5rem;
 }
 
-#replywritten{
+#replywritten {
   color: #c59a60;
   font-size: 1rem;
+  text-decoration: none;
 }
 
-.leavereply{
+.leavereply {
   margin-top: 5rem;
 }
 
-.leavebody, .leaveratingtitle{
+.leavebody,
+.leaveratingtitle {
   margin-top: 2rem;
   font-size: 1.4rem;
 }
-.staricon{
+.staricon {
   padding-left: 1rem;
 }
-.comment{
-   font-size: 1.4rem;
-   margin-top: 2rem;
+.comment {
+  font-size: 1.4rem;
+  margin-top: 2rem;
 }
-#replytextarea{
+#replytextarea {
   width: 87rem;
   height: 12rem;
 }
-.replybottom{
+.replybottom {
   margin-top: 2rem;
   display: flex;
   width: 87rem;
 }
-.email, .website{
+.email,
+.website {
   margin-left: 18.3rem;
 }
