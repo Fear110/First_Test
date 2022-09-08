@@ -1,3 +1,5 @@
+
+
 html {
   font-size: 62.5%;
 }
@@ -65,7 +67,8 @@ html {
   font-size: 2rem;
 }
 
-#headerfacebook, #headerinsta{
+#headerfacebook,
+#headerinsta {
   padding-left: 2rem;
 }
 /* style main title I.E. foodblog */
@@ -183,7 +186,7 @@ html {
   margin-bottom: 3rem;
 }
 
-.fasticon a{
+.fasticon a {
   text-decoration: none;
   color: #c59a60;
 }
@@ -213,6 +216,9 @@ html {
 .footericons li {
   display: inline-block;
   margin-right: 3.5rem;
+}
+.footericons li a{
+  text-decoration: none;
 }
 .footertitletxt {
   text-align: center;
@@ -399,11 +405,10 @@ input.footercheck {
 .writtenbody,
 .reply {
   margin-top: 1rem;
-  
 }
-.replybtn{
+.replybtn {
   text-decoration: none;
-  color: black ;
+  color: black;
 }
 
 .leavereplyheader,
