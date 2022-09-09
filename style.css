@@ -448,6 +448,12 @@ input.footercheck {
 }
 .reply-form {
   display: flex;
+  justify-content: space-between;
+}
+
+.reply-form input{
+   height: 1.8rem;
+  width: 16rem;
 }
 
 .searchTerm {
@@ -477,7 +483,7 @@ fieldset legend {
 }
 
 fieldset {
-  border: 2px solid #c59a60;
+  border: 0.2rem solid #c59a60;
   font-size: 1.5rem;
   color: #c59a60;
   border-radius: 4px;
@@ -519,11 +525,12 @@ fieldset img {
   padding: 0.4rem;
 }
 
-.quick-recipe {
+.quick-recipe{
   background-color: #f7f3ef;
   border-radius: 5px;
   margin-top: 5rem;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .quick-recipe-title{
@@ -531,6 +538,35 @@ fieldset img {
 }
 .quick-recipe-button{
   margin-bottom:1rem ;
+  width: 7rem;
+}
+.quick-recipe input{
+  text-align: center;
+  font-size: 0.8rem;
+  height: 1.2rem;
+  width: 13rem;
+  border: none;
+  border-radius: 2px;
+}
+.latest-post{
+  margin-top: 5rem;
+  
+}
+.latest-post-mainbody{
+  color: black;
+  text-align: center;
+}
+.latest-post-body,.latest-post-seemore{
+  font-size: 1rem;
 }
 
-
+.latest-post-seemore{
+  text-decoration: none;
+  color: black;
+}
+.latest-post-mainbody img{
+  width: 20rem;
+  height: 14rem;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
