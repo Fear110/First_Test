@@ -451,8 +451,8 @@ input.footercheck {
   justify-content: space-between;
 }
 
-.reply-form input{
-   height: 1.8rem;
+.reply-form input {
+  height: 1.8rem;
   width: 16rem;
 }
 
@@ -525,7 +525,7 @@ fieldset img {
   padding: 0.4rem;
 }
 
-.quick-recipe{
+.quick-recipe {
   background-color: #f7f3ef;
   border-radius: 5px;
   margin-top: 5rem;
@@ -533,14 +533,14 @@ fieldset img {
   font-size: 1.3rem;
 }
 
-.quick-recipe-title{
+.quick-recipe-title {
   padding-top: 1rem;
 }
-.quick-recipe-button{
-  margin-bottom:1rem ;
+.quick-recipe-button {
+  margin-bottom: 1rem;
   width: 7rem;
 }
-.quick-recipe input{
+.quick-recipe input {
   text-align: center;
   font-size: 0.8rem;
   height: 1.2rem;
@@ -548,34 +548,34 @@ fieldset img {
   border: none;
   border-radius: 2px;
 }
-.latest-post{
+.latest-post {
   margin-top: 5rem;
-  
 }
-.latest-post-mainbody{
+.latest-post-mainbody {
   color: black;
   text-align: center;
 }
-.latest-post-body,.latest-post-seemore{
+.latest-post-body,
+.latest-post-seemore {
   font-size: 1rem;
 }
 
-.latest-post-seemore{
+.latest-post-seemore {
   text-decoration: none;
   color: black;
 }
-.latest-post-mainbody img{
+.latest-post-mainbody img {
   width: 20rem;
   height: 14rem;
   border-radius: 10px;
   padding-top: 1rem;
 }
-.reply-checkbox{
+.reply-checkbox {
   margin-left: 0px;
   margin-top: 2.5rem;
   font-size: 1.5rem;
 }
-.reply-botton{
+.reply-botton {
   background-color: #c59a60;
   border: none;
   border-radius: 4px;
@@ -583,4 +583,26 @@ fieldset img {
   height: 2rem;
   width: 10rem;
   font-size: 0.8rem;
+}
+.quickbuy-body {
+  font-size: 2rem;
+}
+.quickbuy-body2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.quick-buy-button {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.quickbuyright {
+  display: flex;
+  float: right;
+  margin-left: 16rem;
+  font-size: 1.5rem;
+}
+figcaption {
+  text-align: center;
+  color: #c59a60;
 }
